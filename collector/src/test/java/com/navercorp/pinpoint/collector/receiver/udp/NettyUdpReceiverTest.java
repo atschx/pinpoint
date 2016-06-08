@@ -61,7 +61,7 @@ public class NettyUdpReceiverTest {
                 } catch (InterruptedException ignored) {
                 }
                 logger.debug("server-shutdown");
-                udpServer.shutdown();
+                //udpServer.shutdown();
             }
         });
         thread.start();
